@@ -318,4 +318,45 @@ h3 {
 /* end entrpise section */
 
 
+
+
+
+
+/* partner section */
+.partner-container {
+    display: flex;
+    padding-top: 100px;
+    gap: 50px;
+}
+
+#img-partner {
+    width: 60%;
+}
+
+#img-partner img {
+    width: 100%;
+}
+
+.partner-text {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.partner-text .buttons {
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+}
+
+.partner-text .buttons a {
+    color: black;
+}
+
+
+
+/* end partner section */
+
 /* end main */
