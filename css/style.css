@@ -94,6 +94,7 @@ a strong {
     position: relative;
     height: 800px;
     width: 100%;
+    margin-bottom: 80px;
 
     display: flex;
     justify-content: center;
@@ -105,6 +106,7 @@ a strong {
     border-style: dotted;
     /* test */
     position: absolute;
+    bottom: -80px;
 
 
     max-width: 1200px;
@@ -162,10 +164,35 @@ main {
 
     display: flex;
     justify-content: center;
+    padding-top: 80px;
 }
 
 .container-small {
     min-width: 1000px;
 }
+
+
+/* chekboxes */
+.plan-checkbox {
+    display: flex;
+
+}
+
+/* end ceckboxes */
+
+
+
+
+/* business columns  */
+.head-column {
+    border: solid;
+}
+
+.body-column {
+    border: solid;
+}
+
+/* end business columns */
+
 
 /* end main */
