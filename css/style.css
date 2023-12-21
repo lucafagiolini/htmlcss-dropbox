@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
+
+/* navbar */
+
+nav {
+    border-style: dotted;
+    /* test */
+    display: flex;
+    justify-content: space-between;
+
+    width: 100vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.nav-left {
+    display: flex;
+
+}
