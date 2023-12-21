@@ -201,8 +201,9 @@ main {
     padding-left: 20px;
     row-gap: 30px;
 
+    border: solid;
     border-width: 1px;
-    border: solid rgba(1, 1, 1, 0.2);
+    border-color: rgba(1, 1, 1, .2)
 }
 
 .head-column {
@@ -253,11 +254,68 @@ h3 {
     row-gap: 20px;
 }
 
-.enterprise-section {
-    margin-top: 60px;
-}
+
 
 /* end business columns */
+
+/* enterprise section */
+#enterprise-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+
+
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(1, 1, 1, .2)
+}
+
+#enterprise-section .section-title {
+    text-align: center;
+    padding: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.enterprise-body {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 42px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+}
+
+.enterprise-body-left {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 20px;
+}
+
+#enterprise-section hr {
+    width: 100%;
+
+    border-style: none;
+    border: solid;
+    border-width: 0.1px;
+    color: rgba(1, 1, 1, .2)
+}
+
+#enterprise-section h3 {
+    padding: 0;
+}
+
+#enterprise-section .buttons {
+    height: fit-content;
+}
+
+.enteprise-details {
+    padding-top: 20px;
+}
+
+/* end entrpise section */
 
 
 /* end main */
