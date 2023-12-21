@@ -174,7 +174,10 @@ main {
 
 /* chekboxes */
 .plan-checkbox {
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
+    gap: 50px;
 
 }
 
@@ -197,10 +200,10 @@ main {
     padding-right: 20px;
     padding-left: 20px;
     row-gap: 30px;
-    border: solid;
-}
 
-.body-column .buttons {}
+    border-width: 1px;
+    border: solid rgba(1, 1, 1, 0.2);
+}
 
 .head-column {
     text-align: center;
@@ -216,12 +219,22 @@ main {
     padding-top: 50px;
 }
 
+.day-free-trial .buttons {
+    text-align: center;
+    width: 100%;
+}
+
 .body-column hr {
     position: absolute;
     width: 100%;
     z-index: 11;
     left: 0;
     top: 50px;
+
+    border-style: none;
+    border: solid;
+    border-width: 0.1px;
+    color: rgba(1, 1, 1, .2)
 }
 
 h3 {
@@ -238,6 +251,10 @@ h3 {
     flex-direction: column;
     flex-wrap: nowrap;
     row-gap: 20px;
+}
+
+.enterprise-section {
+    margin-top: 60px;
 }
 
 /* end business columns */
