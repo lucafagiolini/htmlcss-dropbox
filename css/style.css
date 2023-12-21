@@ -184,12 +184,22 @@ main {
 
 
 /* business columns  */
-.head-column {
-    border: solid;
+.columns-container {
+    display: flex;
+    gap: 50px;
 }
 
 .body-column {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+
+
     border: solid;
+}
+
+.head-column {
+    text-align: center;
 }
 
 /* end business columns */
