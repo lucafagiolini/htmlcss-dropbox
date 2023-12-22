@@ -420,6 +420,7 @@ h3 {
     width: calc(100% / 3);
     flex-wrap: wrap;
     height: calc(100vw / 3);
+    overflow-y: auto;
 
 }
 
@@ -429,7 +430,59 @@ h3 {
 }
 
 #collab-section .container-box img {
-    width: 100%;
+    width: 50%;
 }
 
+#middle-box {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+#middle-box hr {
+    width: 30%
+}
+
+
+/* box colors */
+/* left container box */
+.bg-c-lightgreen {
+    background-color: #a2d39b;
+}
+
+.bg-c-bordeaux {
+    background-color: #61082b;
+}
+
+.bg-c-blue {
+    background-color: #0093ce;
+}
+
+.bg-c-orange {
+    background-color: #ff1d1c;
+}
+
+/* end left container box */
+
+/* right container box */
+.bg-c-red {
+    background-color: #d5011f;
+}
+
+.bg-c-lightblue {
+    background-color: #b3d0e7;
+}
+
+.bg-c-darkblue {
+    background-color: #0c2381;
+}
+
+.bg-c-yellow {
+    background-color: #ffd730;
+}
+
+/* end right container box */
+
+/* end box colors */
 /* end collab section */
