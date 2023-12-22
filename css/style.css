@@ -99,6 +99,7 @@ a strong {
     position: relative;
     height: 800px;
     width: 100%;
+
     margin-bottom: 80px;
 
     display: flex;
@@ -108,11 +109,10 @@ a strong {
 }
 
 .container-big {
-    border-style: dotted;
-    /* test */
     position: absolute;
     bottom: -80px;
-
+    margin-left: auto;
+    margin-right: auto;
 
     max-width: 1200px;
 }
@@ -164,8 +164,7 @@ h1 {
 
 /* main */
 main {
-    border-style: dotted;
-    /* test */
+
 
     display: flex;
     justify-content: center;
