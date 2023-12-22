@@ -570,3 +570,34 @@ h3 {
 }
 
 /* end faq section */
+
+
+
+
+/* footer */
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    background-color: black;
+}
+
+#container-footer {
+    max-width: 1200px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.foot-column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* end footer */
