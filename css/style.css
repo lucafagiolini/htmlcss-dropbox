@@ -175,6 +175,9 @@ main {
     max-width: 1000px;
 }
 
+.business-plan-section h2 {
+    font-size: 32px;
+}
 
 /* chekboxes */
 .plan-checkbox {
