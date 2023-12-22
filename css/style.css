@@ -483,6 +483,49 @@ h3 {
 }
 
 /* end right container box */
-
 /* end box colors */
 /* end collab section */
+
+
+
+
+/* business free trial */
+#business-free-trial {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    background-color: #b3d0e7;
+}
+
+.bft-row {
+    display: flex;
+}
+
+.row-left {
+    width: 50%;
+}
+
+.row-left h2 {
+    font-size: 36px;
+}
+
+.row-right {
+    margin-left: 228px;
+}
+
+.bft-row .buttons {
+    width: fit-content;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+}
+
+.bft-row .buttons a {
+    color: black;
+}
+
+/* end business free trial */
