@@ -326,6 +326,7 @@ h3 {
 .partner-container {
     display: flex;
     padding-top: 100px;
+    padding-bottom: 160px;
     gap: 50px;
 }
 
@@ -355,8 +356,51 @@ h3 {
     color: black;
 }
 
-
-
 /* end partner section */
+
+
+
+
+/* dropbox business */
+.business-container {
+    padding-top: 84px;
+}
+
+.business-container h2 {
+    width: 50%;
+    font-size: 30px;
+    padding-bottom: 82px;
+}
+
+.business-container a {
+    color: #0261ff;
+    text-decoration: underline;
+}
+
+.business-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    padding-bottom: 200px;
+}
+
+.business-box {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 50px / 3 * 2);
+}
+
+.business-container .business-row .business-box img {
+    width: 100%;
+}
+
+.business-container .business-box h3 {
+    padding-bottom: 30px;
+}
+
+
+/* end dropbox business */
 
 /* end main */
