@@ -21,8 +21,11 @@ a {
 /* navbar */
 
 nav {
-    border-style: dotted;
-    /* test */
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 12;
+
     display: flex;
     justify-content: space-between;
 
@@ -30,6 +33,8 @@ nav {
     padding-top: 15px;
     padding-bottom: 15px;
 
+    background-color: white;
+    box-shadow: 1px 1px rgba(1, 1, 1, .3);
 }
 
 #nav-left {
