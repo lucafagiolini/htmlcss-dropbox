@@ -436,12 +436,16 @@ h3 {
     height: 50%;
 }
 
+.box {
+    position: relative;
+}
+
 #collab-section .container-box img {
     width: 50%;
 }
 
 #middle-box {
-    padding-top: 50px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     row-gap: 50px;
@@ -449,6 +453,15 @@ h3 {
 
 #middle-box hr {
     width: 30%
+}
+
+#collab-section .container-box .box img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 
