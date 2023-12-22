@@ -362,6 +362,10 @@ h3 {
 
 
 /* dropbox business */
+.dropbox-business {
+    padding-bottom: 150px;
+}
+
 .business-container {
     padding-top: 84px;
 }
@@ -400,7 +404,32 @@ h3 {
     padding-bottom: 30px;
 }
 
-
 /* end dropbox business */
-
 /* end main */
+
+
+
+
+/* collab section */
+#collab-section {
+    display: flex;
+}
+
+.container-box {
+    display: flex;
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+    height: calc(100vw / 3);
+
+}
+
+.container-box .box {
+    width: 50%;
+    height: 50%;
+}
+
+#collab-section .container-box img {
+    width: 100%;
+}
+
+/* end collab section */
