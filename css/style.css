@@ -529,3 +529,44 @@ h3 {
 }
 
 /* end business free trial */
+
+
+/* faq section */
+#faq-section {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+#faq-section .head {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+
+}
+
+.head h2 {
+    font-size: 42px;
+    padding-bottom: 60px;
+}
+
+.inner-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.inner-row a {
+    padding-right: 40px;
+}
+
+/* end faq section */
